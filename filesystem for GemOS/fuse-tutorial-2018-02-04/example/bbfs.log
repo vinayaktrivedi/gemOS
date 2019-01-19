@@ -1,0 +1,1618 @@
+
+bb_init()
+    conn:
+    proto_major = 7
+    proto_minor = 26
+    async_read = 1
+    max_write = 131072
+    max_readahead = 131072
+    capable = 00000ffb
+    want = 00000010
+    max_background = 0
+    congestion_threshold = 0
+    context:
+    fuse = 02358580
+    uid = 0
+    gid = 0
+    pid = 0
+    private_data = 02357010
+    logfile = 02358040
+    rootdir = /home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir
+    umask = 00000
+
+bb_access(path="/", mask=04)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+
+bb_getattr(path="/.xdg-volume-info", statbuf=0x7587bc90)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/.xdg-volume-info", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/.xdg-volume-info"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/autorun.inf", statbuf=0x7507ac90)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/autorun.inf", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/autorun.inf"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.Trash", statbuf=0x7607cc90)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/.Trash", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/.Trash"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/.Trash-1000", statbuf=0x7587bc90)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/.Trash-1000", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/.Trash-1000"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000b20
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c000990, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c000b50
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000b20
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+
+bb_getattr(path="/bogus.txt", statbuf=0x7587bc90)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/bogus.txt", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/bogus.txt"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094381
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 11
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d44
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7607cc80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f8070001c90
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8070001c90
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7507ac60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x70001b00, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f8070001cc0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8070001c90
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8070001c90
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8070001c90
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8070001c90
+
+bb_opendir(path="/", fi=0x7607cc80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f8070009de0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8070009de0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7507ac60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x70001b80, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f8070009e10
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8070009de0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8070009de0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8070009de0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8070009de0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7607cc80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f8070001d10
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8070001d10
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7507ac60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x70001b00, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f8070001d40
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8070001d10
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8070001d10
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8070001d10
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8070001d10
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7587bc80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f8068000c80
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000c80
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7587bc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x68000af0, filler=0x76870ce0, offset=0, fi=0x7507ac80)
+    readdir returned 0x0x7f8068000cb0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068000c80
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000c80
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068000c80
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000c80
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000fc0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000fc0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c000990, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c000ff0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000fc0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000fc0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7507ac90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000fc0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000fc0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7587bc80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f8068000c80
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000c80
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x68000af0, filler=0x76870ce0, offset=0, fi=0x7507ac80)
+    readdir returned 0x0x7f8068000cb0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068000c80
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000c80
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7507ac90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068000c80
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000c80
+
+bb_opendir(path="/", fi=0x7587bc80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f8068008dd0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068008dd0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x68000b70, filler=0x76870ce0, offset=0, fi=0x7507ac80)
+    readdir returned 0x0x7f8068008e00
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068008dd0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068008dd0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7507ac90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068008dd0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068008dd0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7587bc80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f8068000d00
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000d00
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x68000af0, filler=0x76870ce0, offset=0, fi=0x7507ac80)
+    readdir returned 0x0x7f8068000d30
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068000d00
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000d00
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7507ac90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068000d00
+    writepage = 0
+
+bb_opendir(path="/", fi=0x7587bc80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000d00
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f8068008d40
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068008d40
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x68000b70, filler=0x76870ce0, offset=0, fi=0x7507ac80)
+    readdir returned 0x0x7f8068008d70
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068008d40
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068008d40
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7507ac90)
+
+bb_opendir(path="/", fi=0x7587bc80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f8068000d00
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000d00
+    lock_owner = 0x0000000000000000
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068008d40
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068008d40
+    lock_owner = 0x0000000000000000
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x68000af0, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f8068000d30
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068000d00
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000d00
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068000d00
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000d00
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000b20
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000b20
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c000990, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c000b50
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000b20
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000b20
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000b20
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000a90
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000a90
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c000a10, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c000ac0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000a90
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000a90
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000a90
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000a90
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000a10
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000a10
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c000990, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c000a40
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000a10
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000a10
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000a10
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000a10
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000990
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c008a50, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c0009c0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+    opendir returned 0x0x7f806c008be0
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c008be0
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c0089d0, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c008c10
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c008be0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c008be0
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c008be0
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c008be0
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000990
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c008a50, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c0009c0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000990
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c0089d0, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c0009c0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000990
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c008a50, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c0009c0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000990
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c0089d0, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c0009c0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000990
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c008a50, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c0009c0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c000990
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c0089d0, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c0009c0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c000990
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c000990
+    lock_owner = 0x0000000000000000
+
+bb_opendir(path="/", fi=0x7507ac80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f806c008a50
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c008a50
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x6c0089d0, filler=0x76870ce0, offset=0, fi=0x7587bc80)
+    readdir returned 0x0x7f806c008a80
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c008a50
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c008a50
+    lock_owner = 0x0000000000000000
+
+bb_releasedir(path="/", fi=0x7587bc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f806c008a50
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f806c008a50
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/autorun.inf", statbuf=0x7507ac90)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/autorun.inf", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/autorun.inf"
+    lstat returned -1
+    ERROR lstat: No such file or directory
+    si:
+    st_dev = 0
+    st_ino = 0
+    st_mode = 00
+    st_nlink = 0
+    st_uid = 0
+    st_gid = 0
+    st_rdev = 0
+    st_size = 0
+    st_blksize = 0
+    st_blocks = 0
+    st_atime = 0x00000000
+    st_mtime = 0x00000000
+    st_ctime = 0x00000000
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_getattr(path="/", statbuf=0x7587bc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_getattr(path="/", statbuf=0x7507ac60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_access(path="/", mask=01)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+
+bb_opendir(path="/", fi=0x7587bc80)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    opendir returned 0x0x7f8068000c80
+    fi:
+    flags = 0x00018800
+    fh_old = 0x00000000
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000c80
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7507ac60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_readdir(path="/", buf=0x68000af0, filler=0x76870ce0, offset=0, fi=0x7607cc80)
+    readdir returned 0x0x7f8068000cb0
+calling filler with name bogus.txt
+calling filler with name .
+calling filler with name ..
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068000c80
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000c80
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/bogus.txt", statbuf=0x7587bc90)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/bogus.txt", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/bogus.txt"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094381
+    st_mode = 0100664
+    st_nlink = 1
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 11
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d44
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_releasedir(path="/", fi=0x7607cc90)
+    fi:
+    flags = 0x00000000
+    fh_old = 0x7f8068000c80
+    writepage = 0
+    direct_io = 0
+    keep_cache = 0
+    fh = 0x00007f8068000c80
+    lock_owner = 0x0000000000000000
+
+bb_getattr(path="/", statbuf=0x7587bc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_getattr(path="/", statbuf=0x7507ac60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_getattr(path="/", statbuf=0x7607cc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_getattr(path="/", statbuf=0x7587bc60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_getattr(path="/", statbuf=0x7507ac60)
+    bb_fullpath:  rootdir = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir", path = "/", fpath = "/home/vinayak/Desktop/5th sem/Operating System/filesystem_assgn/fuse-tutorial-2018-02-04/example/rootdir/"
+    lstat returned 0
+    si:
+    st_dev = 2054
+    st_ino = 7094380
+    st_mode = 040775
+    st_nlink = 2
+    st_uid = 1000
+    st_gid = 1000
+    st_rdev = 0
+    st_size = 4096
+    st_blksize = 4096
+    st_blocks = 8
+    st_atime = 0x5be77d42
+    st_mtime = 0x5be77d42
+    st_ctime = 0x5be77d42
+
+bb_destroy(userdata=0x02357010)

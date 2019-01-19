@@ -1,0 +1,385 @@
+objfs_init
+Done objstore init hahaha inode_bitmap 0
+objfs_getattr: key=/.xdg-volume-info
+Entered find object id function inode_bitmap 0 
+objfs_getattr: key=/
+Key not found .xdg-volume-info
+objfs_getattr: key=/autorun.inf
+Entered find object id function inode_bitmap 0 
+Key not found autorun.inf
+objfs_getattr: key=/.Trash
+Entered find object id function inode_bitmap 0 
+Key not found .Trash
+objfs_getattr: key=/.Trash-1000
+Entered find object id function inode_bitmap 0 
+objfs_getattr: key=/
+Key not found .Trash-1000
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/
+objfs_getattr: key=/autorun.inf
+Entered find object id function inode_bitmap 0 
+Key not found autorun.inf
+objfs_getattr: key=/
+objfs_getattr: key=/CS330###1
+Entered find object id function inode_bitmap 0 
+Key not found CS330###1
+objfs_create: key=/CS330###1
+Entered create object function
+returned inode id 2 for key CS330###1
+objfs_getattr: key=/CS330###1
+Entered find object id function inode_bitmap 32 
+out temp 32 and in temp 1
+Found inode 2 for key CS330###1
+objfs_write: key=/CS330###1 fh=2
+Entered write function with offset 0 size 32 and objectid 2
+blocks 1 and indirect 1 start_indirect 0 position 0
+0 index 0
+Allocated block number 16673new indirect data block 16673
+Allocated block number 16674new data data block 16674
+objfs_release: key=/CS330###1
+objfs_getattr: key=/CS330###2
+Entered find object id function inode_bitmap 32 
+Key not found CS330###2
+objfs_create: key=/CS330###2
+Entered create object function
+returned inode id 3 for key CS330###2
+objfs_getattr: key=/CS330###2
+Entered find object id function inode_bitmap 48 
+out temp 48 and in temp 1
+Found inode 3 for key CS330###2
+objfs_write: key=/CS330###2 fh=3
+Entered write function with offset 0 size 32 and objectid 3
+blocks 1 and indirect 1 start_indirect 0 position 0
+0 index 0
+Allocated block number 16675new indirect data block 16675
+Allocated block number 16676new data data block 16676
+objfs_release: key=/CS330###2
+objfs_getattr: key=/CS330###3
+Entered find object id function inode_bitmap 48 
+Key not found CS330###3
+objfs_create: key=/CS330###3
+Entered create object function
+returned inode id 4 for key CS330###3
+objfs_getattr: key=/CS330###3
+Entered find object id function inode_bitmap 56 
+out temp 56 and in temp 1
+Found inode 4 for key CS330###3
+objfs_write: key=/CS330###3 fh=4
+Entered write function with offset 0 size 32 and objectid 4
+blocks 1 and indirect 1 start_indirect 0 position 0
+0 index 0
+Allocated block number 16677new indirect data block 16677
+Allocated block number 16678new data data block 16678
+objfs_release: key=/CS330###3
+objfs_getattr: key=/CS330###4
+Entered find object id function inode_bitmap 56 
+Key not found CS330###4
+objfs_create: key=/CS330###4
+Entered create object function
+returned inode id 5 for key CS330###4
+objfs_getattr: key=/CS330###4
+Entered find object id function inode_bitmap 60 
+out temp 60 and in temp 1
+Found inode 5 for key CS330###4
+objfs_write: key=/CS330###4 fh=5
+Entered write function with offset 0 size 32 and objectid 5
+blocks 1 and indirect 1 start_indirect 0 position 0
+0 index 0
+Allocated block number 16679new indirect data block 16679
+Allocated block number 16680new data data block 16680
+objfs_release: key=/CS330###4
+objfs_getattr: key=/CS330###5
+Entered find object id function inode_bitmap 60 
+Key not found CS330###5
+objfs_create: key=/CS330###5
+Entered create object function
+returned inode id 6 for key CS330###5
+objfs_getattr: key=/CS330###5
+Entered find object id function inode_bitmap 62 
+out temp 62 and in temp 1
+Found inode 6 for key CS330###5
+objfs_write: key=/CS330###5 fh=6
+Entered write function with offset 0 size 32 and objectid 6
+blocks 1 and indirect 1 start_indirect 0 position 0
+0 index 0
+Allocated block number 16681new indirect data block 16681
+Allocated block number 16682new data data block 16682
+objfs_release: key=/CS330###5
+objfs_getattr: key=/CS330###6
+Entered find object id function inode_bitmap 62 
+Key not found CS330###6
+objfs_create: key=/CS330###6
+Entered create object function
+returned inode id 7 for key CS330###6
+objfs_getattr: key=/CS330###6
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 7 for key CS330###6
+objfs_write: key=/CS330###6 fh=7
+Entered write function with offset 0 size 32 and objectid 7
+blocks 1 and indirect 1 start_indirect 0 position 0
+0 index 0
+Allocated block number 16683new indirect data block 16683
+Allocated block number 16684new data data block 16684
+objfs_release: key=/CS330###6
+objfs_getattr: key=/CS330###7
+Entered find object id function inode_bitmap 63 
+Key not found CS330###7
+objfs_create: key=/CS330###7
+Entered create object function
+returned inode id 8 for key CS330###7
+objfs_getattr: key=/CS330###7
+Entered find object id function inode_bitmap 63 
+out temp -128 and in temp 1
+Found inode 8 for key CS330###7
+objfs_write: key=/CS330###7 fh=8
+Entered write function with offset 0 size 32 and objectid 8
+blocks 1 and indirect 1 start_indirect 0 position 0
+0 index 0
+Allocated block number 16685new indirect data block 16685
+Allocated block number 16686new data data block 16686
+objfs_release: key=/CS330###7
+objfs_getattr: key=/CS330###8
+Entered find object id function inode_bitmap 63 
+Key not found CS330###8
+objfs_create: key=/CS330###8
+Entered create object function
+returned inode id 9 for key CS330###8
+objfs_getattr: key=/CS330###8
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 9 for key CS330###8
+objfs_write: key=/CS330###8 fh=9
+Entered write function with offset 0 size 32 and objectid 9
+blocks 1 and indirect 1 start_indirect 0 position 0
+0 index 0
+Allocated block number 16687new indirect data block 16687
+Allocated block number 16688new data data block 16688
+objfs_release: key=/CS330###8
+objfs_getattr: key=/
+objfs_getattr: key=/CS330###1
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 2 for key CS330###1
+objfs_open: key=/CS330###1
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 2 for key CS330###1
+objfs_read: key=/CS330###1 fh=2
+Entered read function with offset 0 size 4096 and objectid 2
+objfs_release: key=/CS330###1
+objfs_getattr: key=/CS330###2
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 3 for key CS330###2
+objfs_open: key=/CS330###2
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 3 for key CS330###2
+objfs_read: key=/CS330###2 fh=3
+Entered read function with offset 0 size 4096 and objectid 3
+objfs_release: key=/CS330###2
+objfs_getattr: key=/CS330###3
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 4 for key CS330###3
+objfs_open: key=/CS330###3
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 4 for key CS330###3
+objfs_read: key=/CS330###3 fh=4
+Entered read function with offset 0 size 4096 and objectid 4
+objfs_release: key=/CS330###3
+objfs_getattr: key=/CS330###4
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 5 for key CS330###4
+objfs_open: key=/CS330###4
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 5 for key CS330###4
+objfs_read: key=/CS330###4 fh=5
+Entered read function with offset 0 size 4096 and objectid 5
+objfs_release: key=/CS330###4
+objfs_getattr: key=/CS330###5
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 6 for key CS330###5
+objfs_open: key=/CS330###5
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 6 for key CS330###5
+objfs_read: key=/CS330###5 fh=6
+Entered read function with offset 0 size 4096 and objectid 6
+objfs_release: key=/CS330###5
+objfs_getattr: key=/CS330###6
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 7 for key CS330###6
+objfs_open: key=/CS330###6
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 7 for key CS330###6
+objfs_read: key=/CS330###6 fh=7
+Entered read function with offset 0 size 4096 and objectid 7
+objfs_release: key=/CS330###6
+objfs_getattr: key=/CS330###7
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 8 for key CS330###7
+objfs_open: key=/CS330###7
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 8 for key CS330###7
+objfs_read: key=/CS330###7 fh=8
+Entered read function with offset 0 size 4096 and objectid 8
+objfs_release: key=/CS330###7
+objfs_getattr: key=/CS330###8
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 9 for key CS330###8
+objfs_open: key=/CS330###8
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 9 for key CS330###8
+objfs_read: key=/CS330###8 fh=9
+Entered read function with offset 0 size 4096 and objectid 9
+objfs_release: key=/CS330###8
+objfs_getattr: key=/
+objfs_getattr: key=/CS330###8
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 9 for key CS330###8
+objfs_unlink: key=/CS330###8
+Entered destroy object function
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 9 for key CS330###8
+objfs_getattr: key=/CS330###8
+Entered find object id function inode_bitmap 63 
+Key not found CS330###8
+objfs_create: key=/CS330###8
+Entered create object function
+returned inode id 9 for key CS330###8
+objfs_getattr: key=/CS330###8
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 9 for key CS330###8
+objfs_write: key=/CS330###8 fh=9
+Entered write function with offset 0 size 64 and objectid 9
+blocks 1 and indirect 1 start_indirect 0 position 0
+0 index 0
+Allocated block number 16687new indirect data block 16687
+Allocated block number 16688new data data block 16688
+objfs_release: key=/CS330###8
+objfs_getattr: key=/
+objfs_getattr: key=/CS330###1
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 2 for key CS330###1
+objfs_open: key=/CS330###1
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 2 for key CS330###1
+objfs_read: key=/CS330###1 fh=2
+Entered read function with offset 0 size 4096 and objectid 2
+objfs_release: key=/CS330###1
+objfs_getattr: key=/CS330###2
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 3 for key CS330###2
+objfs_open: key=/CS330###2
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 3 for key CS330###2
+objfs_read: key=/CS330###2 fh=3
+Entered read function with offset 0 size 4096 and objectid 3
+objfs_getattr: key=/CS330###3
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 4 for key CS330###3
+objfs_release: key=/CS330###2
+objfs_open: key=/CS330###3
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 4 for key CS330###3
+objfs_read: key=/CS330###3 fh=4
+Entered read function with offset 0 size 4096 and objectid 4
+objfs_release: key=/CS330###3
+objfs_getattr: key=/CS330###4
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 5 for key CS330###4
+objfs_open: key=/CS330###4
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 5 for key CS330###4
+objfs_read: key=/CS330###4 fh=5
+Entered read function with offset 0 size 4096 and objectid 5
+objfs_release: key=/CS330###4
+objfs_getattr: key=/CS330###5
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 6 for key CS330###5
+objfs_open: key=/CS330###5
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 6 for key CS330###5
+objfs_read: key=/CS330###5 fh=6
+Entered read function with offset 0 size 4096 and objectid 6
+objfs_release: key=/CS330###5
+objfs_getattr: key=/CS330###6
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 7 for key CS330###6
+objfs_open: key=/CS330###6
+Entered find object id function inode_bitmap 63 
+out temp 63 and in temp 1
+Found inode 7 for key CS330###6
+objfs_read: key=/CS330###6 fh=7
+Entered read function with offset 0 size 4096 and objectid 7
+objfs_release: key=/CS330###6
+objfs_getattr: key=/CS330###7
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 8 for key CS330###7
+objfs_open: key=/CS330###7
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 8 for key CS330###7
+objfs_read: key=/CS330###7 fh=8
+Entered read function with offset 0 size 4096 and objectid 8
+objfs_release: key=/CS330###7
+objfs_getattr: key=/CS330###8
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 9 for key CS330###8
+objfs_open: key=/CS330###8
+Entered find object id function inode_bitmap 63 
+out temp -64 and in temp 1
+Found inode 9 for key CS330###8
+objfs_read: key=/CS330###8 fh=9
+Entered read function with offset 0 size 4096 and objectid 9
+objfs_release: key=/CS330###8
+objfs_getattr: key=/
+objfs_destroy
+Done objstore destroy
